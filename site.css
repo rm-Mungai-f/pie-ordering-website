@@ -68,6 +68,10 @@ article{
     width: 75%;
 }
 
+.columns{
+    display: flex;
+}
+
 @media only screen and (min-width: 768px){
     main{
         display: flex;
@@ -76,4 +80,10 @@ article{
     aside{
         margin-left: 2%;
     }
+
+    .columns-desktop{
+        display: flex;
+    }
 }
+
+/* pies */
